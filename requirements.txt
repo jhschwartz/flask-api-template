@@ -1,0 +1,15 @@
+Flask
+Flask-Admin
+Flask-PyMongo
+Flask-WTF
+Flask-Testing
+Flask-Admin
+Flask-Login
+Flask-Mail
+Pillow
+boto
+Flask-RESTful
+Jinja2
+Werkzeug
+itsdangerous
+six
