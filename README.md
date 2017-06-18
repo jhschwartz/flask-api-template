@@ -16,5 +16,5 @@ To get started in Terminal:
 5. `pip install -r requirements.txt`
 6. `chmod a+x run.py`
 7. `./run.py`
-8. Make api calls (ex: `curl http://localhost:5000/api/v1.0/cafes`)
+8. Make api calls (ex: `curl http://localhost:5000/api/v1.0/cafes` or use Postman [reccomended])
 9. Make your own api, in `app/api/api.py` or by creating api files in `app/api` (remember to import new files in `app/api/__init__.py`)
