@@ -1,5 +1,4 @@
 from flask import jsonify, redirect, url_for
-from datetime import datetime
 from flask import Flask, request
 from flask_restful import Resource, Api, reqparse, abort
 from app import akp_api, mongo
