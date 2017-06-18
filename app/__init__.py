@@ -5,7 +5,7 @@ from flask_pymongo import PyMongo
 import config
 
 app = Flask(__name__)
-akp_api = Api(app)
+my_api = Api(app)
 mongo = PyMongo(app)
 
 from app import api

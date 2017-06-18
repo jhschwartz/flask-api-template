@@ -1,7 +1,7 @@
 from flask import jsonify, redirect, url_for
 from flask import Flask, request
 from flask_restful import Resource, Api, reqparse, abort
-from app import akp_api, mongo
+from app import my_api, mongo
 from bson.json_util import dumps
 
 parser = reqparse.RequestParser()
@@ -39,5 +39,5 @@ class Todos(Resource):
 		}, upsert=False)
 		return 0
 
-akp_api.add_resource(TodoList, '/api/v1.0/todos')
-akp_api.add_resource(Todos, '/api/v1.0/todos/<string:todo_name>')
+my_api.add_resource(TodoList, '/api/v1.0/todos')
+my_api.add_resource(Todos, '/api/v1.0/todos/<string:todo_name>')
