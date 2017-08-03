@@ -11,7 +11,7 @@ Prereqs:
 To get started in Terminal:
 1. `git clone https://github.com/jhschwartz/flask-api-template.git`
 2. `cd flask-api-template`
-3. `vitualenv flask`
+3. `virtualenv flask`
 4. `source flask/bin/activate`
 5. `pip install -r requirements.txt`
 6. `chmod a+x run.py`
